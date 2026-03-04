@@ -52,12 +52,17 @@ const Footer: React.FC = () => {
                 </div>
 
                 <div className="pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4">
-                    <div className="text-center md:text-left space-y-1">
-                        <p className="text-slate-500 text-sm">
-                            © 2026 Global Seller Shield. All rights reserved.
+                    <div className="text-center md:text-left space-y-2">
+                        <div className="flex flex-wrap justify-center md:justify-start gap-x-4 gap-y-1 text-slate-500 text-[11px]">
+                            <span>상호: 리퍼필름</span>
+                            <span>대표자: 서정원</span>
+                            <span>사업자등록번호: 118-06-22874</span>
+                        </div>
+                        <p className="text-slate-600 text-[11px]">
+                            주소: 경남 양산시 상북면 반회서1길6한영아파트
                         </p>
-                        <p className="text-slate-600 text-[10px] uppercase tracking-tighter">
-                            사업자 등록번호: 118-06-22874
+                        <p className="text-slate-700 text-[10px] mt-2">
+                            © 2026 Global Seller Shield. All rights reserved.
                         </p>
                     </div>
                     <div className="bg-red-500/10 border border-red-500/20 px-4 py-2 rounded-lg text-[11px] text-red-400 font-medium">

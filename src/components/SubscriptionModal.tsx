@@ -12,8 +12,9 @@ const SubscriptionModal: React.FC<SubscriptionModalProps> = ({ isOpen, onClose }
         try {
             // @ts-ignore - TossPayments is loaded via script tag in index.html
             if (typeof window.TossPayments !== 'undefined') {
+                const clientKey = import.meta.env.VITE_TOSS_CLIENT_KEY || 'test_ck_D5yaZDRar011111111111111';
                 // @ts-ignore
-                const tossPayments = window.TossPayments('test_ck_D5yaZDRar011111111111111');
+                const tossPayments = window.TossPayments(clientKey);
 
                 await tossPayments.requestPayment('카드', {
                     amount: 39000,
