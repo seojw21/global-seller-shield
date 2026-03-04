@@ -52,9 +52,14 @@ const Footer: React.FC = () => {
                 </div>
 
                 <div className="pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4">
-                    <p className="text-slate-500 text-sm text-center md:text-left">
-                        © 2026 Global Seller Shield. All rights reserved. (모든 권리 보유)
-                    </p>
+                    <div className="text-center md:text-left space-y-1">
+                        <p className="text-slate-500 text-sm">
+                            © 2026 Global Seller Shield. All rights reserved.
+                        </p>
+                        <p className="text-slate-600 text-[10px] uppercase tracking-tighter">
+                            사업자 등록번호: 118-06-22874
+                        </p>
+                    </div>
                     <div className="bg-red-500/10 border border-red-500/20 px-4 py-2 rounded-lg text-[11px] text-red-400 font-medium">
                         IMPORTANT: 모든 정보는 참고용이며, 수출 전 반드시 전문 관세사와 상담하십시오.
                     </div>
