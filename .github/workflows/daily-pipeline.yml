@@ -27,26 +27,10 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Generate daily risk insights
-        run: node scripts/generate-daily-insights.mjs
+      - name: Generate automated content & insights
+        run: npm run generate
         env:
           VITE_GEMINI_API_KEY: ${{ secrets.VITE_GEMINI_API_KEY }}
-
-      - name: Generate blog post
-        run: node scripts/generate-blog-post.mjs
-        env:
-          VITE_GEMINI_API_KEY: ${{ secrets.VITE_GEMINI_API_KEY }}
-
-      - name: Generate marketing content (LinkedIn + Twitter)
-        run: node scripts/generate-marketing-content.mjs
-        env:
-          VITE_GEMINI_API_KEY: ${{ secrets.VITE_GEMINI_API_KEY }}
-
-      - name: Generate card news
-        run: node scripts/generate-card-news.mjs
-
-      - name: Generate risk trend data
-        run: node scripts/generate-trend-data.mjs
 
       - name: Build production bundle
         run: npm run build
