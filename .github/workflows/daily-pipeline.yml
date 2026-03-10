@@ -41,6 +41,15 @@ jobs:
         env:
           VITE_GEMINI_API_KEY: ${{ secrets.VITE_GEMINI_API_KEY }}
 
+      - name: Verify Secrets
+        run: |
+          if [ -z "${{ secrets.FIREBASE_SERVICE_ACCOUNT }}" ]; then
+            echo "❌ FIREBASE_SERVICE_ACCOUNT is MISSING!"
+            exit 1
+          else
+            echo "✅ FIREBASE_SERVICE_ACCOUNT is present."
+          fi
+
       - name: Deploy to Firebase Hosting
         uses: FirebaseExtended/action-hosting-deploy@v0
         with:
