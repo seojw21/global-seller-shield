@@ -5,6 +5,8 @@ import path from "path";
 
 dotenv.config();
 
+console.log("🔍 Debug: API_KEY length:", process.env.VITE_GEMINI_API_KEY?.length);
+
 const API_KEY = process.env.VITE_GEMINI_API_KEY || "";
 const genAI = new GoogleGenerativeAI(API_KEY);
 const MODEL_NAME = "gemini-2.0-flash";
