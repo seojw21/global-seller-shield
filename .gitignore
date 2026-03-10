@@ -30,5 +30,16 @@ dist-ssr
 .env.production
 .env.local
 
+# Firebase service account (절대 push하면 안됨)
+*-firebase-adminsdk-*.json
+service-account*.json
+
+# Generated daily data (CI/CD에서 매일 자동 생성됨)
+public/data/daily-insight.json
+public/data/marketing-content.json
+public/data/risk-trend.json
+public/blog/
+public/cards/
+
 # Vercel
 .vercel

@@ -1,0 +1,62 @@
+name: "Daily Content Pipeline & Deploy"
+
+on:
+  schedule:
+    # 매일 오전 08:00 KST (UTC 23:00 전날)
+    - cron: "0 23 * * *"
+  workflow_dispatch: # 수동 실행도 가능
+
+env:
+  NODE_VERSION: "20"
+
+jobs:
+  generate-and-deploy:
+    name: "Generate Content → Build → Deploy"
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate daily risk insights
+        run: node scripts/generate-daily-insights.mjs
+        env:
+          VITE_GEMINI_API_KEY: ${{ secrets.VITE_GEMINI_API_KEY }}
+
+      - name: Generate blog post
+        run: node scripts/generate-blog-post.mjs
+        env:
+          VITE_GEMINI_API_KEY: ${{ secrets.VITE_GEMINI_API_KEY }}
+
+      - name: Generate marketing content (LinkedIn + Twitter)
+        run: node scripts/generate-marketing-content.mjs
+        env:
+          VITE_GEMINI_API_KEY: ${{ secrets.VITE_GEMINI_API_KEY }}
+
+      - name: Generate card news
+        run: node scripts/generate-card-news.mjs
+
+      - name: Generate risk trend data
+        run: node scripts/generate-trend-data.mjs
+
+      - name: Build production bundle
+        run: npm run build
+        env:
+          VITE_GEMINI_API_KEY: ${{ secrets.VITE_GEMINI_API_KEY }}
+
+      - name: Deploy to Firebase Hosting
+        uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          repoToken: ${{ secrets.GITHUB_TOKEN }}
+          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+          channelId: live
+          projectId: seraphic-lock-460314-f9

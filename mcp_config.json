@@ -1,0 +1,25 @@
+{
+    "mcpServers": {
+        "notebooklm-mcp": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@modelcontextprotocol/server-notebooklm"
+            ]
+        },
+        "firebase-mcp-server": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "firebase-mcp-server"
+            ]
+        },
+        "paypal-mcp-server": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "paypal-mcp-server"
+            ]
+        }
+    }
+}

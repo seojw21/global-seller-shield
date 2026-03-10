@@ -1,10 +1,11 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { AlertTriangle, CheckCircle, XCircle, Info, ExternalLink, ArrowRight, MessageCircle, Copy } from 'lucide-react';
+import { AlertTriangle, CheckCircle, XCircle, Info, ExternalLink, ArrowRight, MessageCircle, Copy, Zap } from 'lucide-react';
 import { RiskScreeningResult } from '../lib/gemini';
 import { clsx, type ClassValue } from 'clsx';
 import { twMerge } from 'tailwind-merge';
 import { useState } from 'react';
+import SubscriptionModal from './SubscriptionModal';
 
 function cn(...inputs: ClassValue[]) {
     return twMerge(clsx(inputs));
@@ -16,6 +17,7 @@ interface TrafficLightResultProps {
 
 const TrafficLightResult: React.FC<TrafficLightResultProps> = ({ result }) => {
     const [copied, setCopied] = useState(false);
+    const [isModalOpen, setIsModalOpen] = useState(false);
     const isLow = result.risk_level === 'Low';
     const isMedium = result.risk_level === 'Medium';
     const isHigh = result.risk_level === 'High';
@@ -164,20 +166,39 @@ ${result.official_sources.join('\n')}
                 </div>
             </div>
 
-            <div className="text-center p-6 border border-dashed border-white/10 rounded-2xl">
-                <p className="text-slate-500 text-sm">
-                    더 깊은 분석이 필요하신가요?
+            <div className="text-center p-8 border border-dashed border-sky-500/30 rounded-[2rem] bg-sky-500/5 relative overflow-hidden group">
+                <div className="absolute inset-0 bg-gradient-to-r from-sky-500/0 via-sky-500/5 to-sky-500/0 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-1000" />
+                <Zap className="w-8 h-8 text-sky-400 mx-auto mb-4 animate-pulse" />
+                <h4 className="text-xl font-bold text-white mb-2">실시간 모니터링 및 심층 리포트</h4>
+                <p className="text-slate-400 text-sm mb-6 max-w-md mx-auto">
+                    단순 진단을 넘어, 해당 품목의 글로벌 규제 변화를 실시간으로 감시하고 전문적인 심층 분석 리포트를 제공받으세요.
+                </p>
+                <button
+                    onClick={() => setIsModalOpen(true)}
+                    className="px-8 py-4 bg-sky-500 hover:bg-sky-400 text-white font-bold rounded-2xl transition-all shadow-lg shadow-sky-500/20 active:scale-95 flex items-center gap-2 mx-auto"
+                >
+                    고급 분석 기능 활성화
+                    <ArrowRight className="w-5 h-5" />
+                </button>
+
+                <p className="mt-8 text-slate-500 text-sm flex items-center justify-center gap-4">
+                    <span>무료 전문가 상담:</span>
                     <a
                         href="https://open.kakao.com/o/s9Meawji"
                         target="_blank"
                         rel="noreferrer"
-                        className="text-sky-400 cursor-pointer font-bold hover:underline ml-2 flex inline-items items-center gap-1"
+                        className="text-sky-400 cursor-pointer font-bold hover:underline flex items-center gap-1"
                     >
                         <MessageCircle className="w-4 h-4" />
-                        무료 진단 신청 (카카오톡)
+                        카카오톡 연결
                     </a>
                 </p>
             </div>
+
+            <SubscriptionModal
+                isOpen={isModalOpen}
+                onClose={() => setIsModalOpen(false)}
+            />
         </motion.div>
     );
 };

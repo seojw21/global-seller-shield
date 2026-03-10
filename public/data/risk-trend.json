@@ -1,0 +1,1416 @@
+{
+  "countries": [
+    {
+      "id": "us",
+      "name": "미국"
+    },
+    {
+      "id": "eu",
+      "name": "유럽연합"
+    },
+    {
+      "id": "cn",
+      "name": "중국"
+    },
+    {
+      "id": "jp",
+      "name": "일본"
+    },
+    {
+      "id": "sea",
+      "name": "동남아시아"
+    }
+  ],
+  "categories": [
+    {
+      "id": "tariff",
+      "name": "관세 리스크"
+    },
+    {
+      "id": "compliance",
+      "name": "컴플라이언스"
+    },
+    {
+      "id": "logistics",
+      "name": "물류 리스크"
+    }
+  ],
+  "trends": {
+    "us": {
+      "name": "미국",
+      "data": [
+        {
+          "date": "2026-02-09",
+          "totalRisk": 72,
+          "breakdown": {
+            "tariff": 68,
+            "compliance": 65,
+            "logistics": 52
+          }
+        },
+        {
+          "date": "2026-02-10",
+          "totalRisk": 71,
+          "breakdown": {
+            "tariff": 70,
+            "compliance": 60,
+            "logistics": 38
+          }
+        },
+        {
+          "date": "2026-02-11",
+          "totalRisk": 72,
+          "breakdown": {
+            "tariff": 75,
+            "compliance": 64,
+            "logistics": 41
+          }
+        },
+        {
+          "date": "2026-02-12",
+          "totalRisk": 68,
+          "breakdown": {
+            "tariff": 67,
+            "compliance": 62,
+            "logistics": 45
+          }
+        },
+        {
+          "date": "2026-02-13",
+          "totalRisk": 72,
+          "breakdown": {
+            "tariff": 69,
+            "compliance": 62,
+            "logistics": 44
+          }
+        },
+        {
+          "date": "2026-02-14",
+          "totalRisk": 68,
+          "breakdown": {
+            "tariff": 68,
+            "compliance": 64,
+            "logistics": 50
+          }
+        },
+        {
+          "date": "2026-02-15",
+          "totalRisk": 76,
+          "breakdown": {
+            "tariff": 81,
+            "compliance": 63,
+            "logistics": 41
+          }
+        },
+        {
+          "date": "2026-02-16",
+          "totalRisk": 66,
+          "breakdown": {
+            "tariff": 71,
+            "compliance": 55,
+            "logistics": 47
+          }
+        },
+        {
+          "date": "2026-02-17",
+          "totalRisk": 68,
+          "breakdown": {
+            "tariff": 72,
+            "compliance": 56,
+            "logistics": 38
+          }
+        },
+        {
+          "date": "2026-02-18",
+          "totalRisk": 69,
+          "breakdown": {
+            "tariff": 69,
+            "compliance": 65,
+            "logistics": 40
+          }
+        },
+        {
+          "date": "2026-02-19",
+          "totalRisk": 58,
+          "breakdown": {
+            "tariff": 64,
+            "compliance": 57,
+            "logistics": 35
+          }
+        },
+        {
+          "date": "2026-02-20",
+          "totalRisk": 62,
+          "breakdown": {
+            "tariff": 57,
+            "compliance": 52,
+            "logistics": 34
+          }
+        },
+        {
+          "date": "2026-02-21",
+          "totalRisk": 61,
+          "breakdown": {
+            "tariff": 62,
+            "compliance": 53,
+            "logistics": 32
+          }
+        },
+        {
+          "date": "2026-02-22",
+          "totalRisk": 66,
+          "breakdown": {
+            "tariff": 69,
+            "compliance": 53,
+            "logistics": 38
+          }
+        },
+        {
+          "date": "2026-02-23",
+          "totalRisk": 55,
+          "breakdown": {
+            "tariff": 59,
+            "compliance": 44,
+            "logistics": 33
+          }
+        },
+        {
+          "date": "2026-02-24",
+          "totalRisk": 68,
+          "breakdown": {
+            "tariff": 63,
+            "compliance": 60,
+            "logistics": 38
+          }
+        },
+        {
+          "date": "2026-02-25",
+          "totalRisk": 66,
+          "breakdown": {
+            "tariff": 59,
+            "compliance": 56,
+            "logistics": 45
+          }
+        },
+        {
+          "date": "2026-02-26",
+          "totalRisk": 66,
+          "breakdown": {
+            "tariff": 73,
+            "compliance": 58,
+            "logistics": 45
+          }
+        },
+        {
+          "date": "2026-02-27",
+          "totalRisk": 63,
+          "breakdown": {
+            "tariff": 65,
+            "compliance": 52,
+            "logistics": 45
+          }
+        },
+        {
+          "date": "2026-02-28",
+          "totalRisk": 77,
+          "breakdown": {
+            "tariff": 77,
+            "compliance": 68,
+            "logistics": 54
+          }
+        },
+        {
+          "date": "2026-03-01",
+          "totalRisk": 79,
+          "breakdown": {
+            "tariff": 80,
+            "compliance": 64,
+            "logistics": 49
+          }
+        },
+        {
+          "date": "2026-03-02",
+          "totalRisk": 81,
+          "breakdown": {
+            "tariff": 79,
+            "compliance": 67,
+            "logistics": 46
+          }
+        },
+        {
+          "date": "2026-03-03",
+          "totalRisk": 75,
+          "breakdown": {
+            "tariff": 71,
+            "compliance": 72,
+            "logistics": 42
+          }
+        },
+        {
+          "date": "2026-03-04",
+          "totalRisk": 85,
+          "breakdown": {
+            "tariff": 92,
+            "compliance": 74,
+            "logistics": 47
+          }
+        },
+        {
+          "date": "2026-03-05",
+          "totalRisk": 77,
+          "breakdown": {
+            "tariff": 74,
+            "compliance": 63,
+            "logistics": 48
+          }
+        },
+        {
+          "date": "2026-03-06",
+          "totalRisk": 85,
+          "breakdown": {
+            "tariff": 79,
+            "compliance": 75,
+            "logistics": 57
+          }
+        },
+        {
+          "date": "2026-03-07",
+          "totalRisk": 84,
+          "breakdown": {
+            "tariff": 78,
+            "compliance": 75,
+            "logistics": 48
+          }
+        },
+        {
+          "date": "2026-03-08",
+          "totalRisk": 72,
+          "breakdown": {
+            "tariff": 77,
+            "compliance": 69,
+            "logistics": 47
+          }
+        },
+        {
+          "date": "2026-03-09",
+          "totalRisk": 77,
+          "breakdown": {
+            "tariff": 77,
+            "compliance": 65,
+            "logistics": 41
+          }
+        },
+        {
+          "date": "2026-03-10",
+          "totalRisk": 68,
+          "breakdown": {
+            "tariff": 66,
+            "compliance": 56,
+            "logistics": 49
+          }
+        }
+      ]
+    },
+    "eu": {
+      "name": "유럽연합",
+      "data": [
+        {
+          "date": "2026-02-09",
+          "totalRisk": 59,
+          "breakdown": {
+            "tariff": 65,
+            "compliance": 49,
+            "logistics": 33
+          }
+        },
+        {
+          "date": "2026-02-10",
+          "totalRisk": 70,
+          "breakdown": {
+            "tariff": 67,
+            "compliance": 68,
+            "logistics": 39
+          }
+        },
+        {
+          "date": "2026-02-11",
+          "totalRisk": 71,
+          "breakdown": {
+            "tariff": 68,
+            "compliance": 68,
+            "logistics": 46
+          }
+        },
+        {
+          "date": "2026-02-12",
+          "totalRisk": 64,
+          "breakdown": {
+            "tariff": 57,
+            "compliance": 55,
+            "logistics": 40
+          }
+        },
+        {
+          "date": "2026-02-13",
+          "totalRisk": 63,
+          "breakdown": {
+            "tariff": 64,
+            "compliance": 55,
+            "logistics": 38
+          }
+        },
+        {
+          "date": "2026-02-14",
+          "totalRisk": 61,
+          "breakdown": {
+            "tariff": 58,
+            "compliance": 58,
+            "logistics": 33
+          }
+        },
+        {
+          "date": "2026-02-15",
+          "totalRisk": 67,
+          "breakdown": {
+            "tariff": 66,
+            "compliance": 54,
+            "logistics": 37
+          }
+        },
+        {
+          "date": "2026-02-16",
+          "totalRisk": 61,
+          "breakdown": {
+            "tariff": 67,
+            "compliance": 50,
+            "logistics": 32
+          }
+        },
+        {
+          "date": "2026-02-17",
+          "totalRisk": 62,
+          "breakdown": {
+            "tariff": 59,
+            "compliance": 49,
+            "logistics": 39
+          }
+        },
+        {
+          "date": "2026-02-18",
+          "totalRisk": 57,
+          "breakdown": {
+            "tariff": 59,
+            "compliance": 52,
+            "logistics": 31
+          }
+        },
+        {
+          "date": "2026-02-19",
+          "totalRisk": 54,
+          "breakdown": {
+            "tariff": 58,
+            "compliance": 44,
+            "logistics": 37
+          }
+        },
+        {
+          "date": "2026-02-20",
+          "totalRisk": 56,
+          "breakdown": {
+            "tariff": 55,
+            "compliance": 51,
+            "logistics": 30
+          }
+        },
+        {
+          "date": "2026-02-21",
+          "totalRisk": 59,
+          "breakdown": {
+            "tariff": 61,
+            "compliance": 55,
+            "logistics": 44
+          }
+        },
+        {
+          "date": "2026-02-22",
+          "totalRisk": 53,
+          "breakdown": {
+            "tariff": 60,
+            "compliance": 43,
+            "logistics": 34
+          }
+        },
+        {
+          "date": "2026-02-23",
+          "totalRisk": 51,
+          "breakdown": {
+            "tariff": 47,
+            "compliance": 48,
+            "logistics": 25
+          }
+        },
+        {
+          "date": "2026-02-24",
+          "totalRisk": 58,
+          "breakdown": {
+            "tariff": 57,
+            "compliance": 53,
+            "logistics": 29
+          }
+        },
+        {
+          "date": "2026-02-25",
+          "totalRisk": 62,
+          "breakdown": {
+            "tariff": 66,
+            "compliance": 58,
+            "logistics": 32
+          }
+        },
+        {
+          "date": "2026-02-26",
+          "totalRisk": 61,
+          "breakdown": {
+            "tariff": 58,
+            "compliance": 50,
+            "logistics": 45
+          }
+        },
+        {
+          "date": "2026-02-27",
+          "totalRisk": 56,
+          "breakdown": {
+            "tariff": 61,
+            "compliance": 42,
+            "logistics": 30
+          }
+        },
+        {
+          "date": "2026-02-28",
+          "totalRisk": 63,
+          "breakdown": {
+            "tariff": 63,
+            "compliance": 50,
+            "logistics": 37
+          }
+        },
+        {
+          "date": "2026-03-01",
+          "totalRisk": 73,
+          "breakdown": {
+            "tariff": 66,
+            "compliance": 59,
+            "logistics": 44
+          }
+        },
+        {
+          "date": "2026-03-02",
+          "totalRisk": 66,
+          "breakdown": {
+            "tariff": 59,
+            "compliance": 64,
+            "logistics": 43
+          }
+        },
+        {
+          "date": "2026-03-03",
+          "totalRisk": 71,
+          "breakdown": {
+            "tariff": 72,
+            "compliance": 65,
+            "logistics": 40
+          }
+        },
+        {
+          "date": "2026-03-04",
+          "totalRisk": 69,
+          "breakdown": {
+            "tariff": 67,
+            "compliance": 57,
+            "logistics": 47
+          }
+        },
+        {
+          "date": "2026-03-05",
+          "totalRisk": 76,
+          "breakdown": {
+            "tariff": 70,
+            "compliance": 74,
+            "logistics": 47
+          }
+        },
+        {
+          "date": "2026-03-06",
+          "totalRisk": 74,
+          "breakdown": {
+            "tariff": 81,
+            "compliance": 67,
+            "logistics": 46
+          }
+        },
+        {
+          "date": "2026-03-07",
+          "totalRisk": 77,
+          "breakdown": {
+            "tariff": 76,
+            "compliance": 74,
+            "logistics": 50
+          }
+        },
+        {
+          "date": "2026-03-08",
+          "totalRisk": 67,
+          "breakdown": {
+            "tariff": 72,
+            "compliance": 62,
+            "logistics": 35
+          }
+        },
+        {
+          "date": "2026-03-09",
+          "totalRisk": 70,
+          "breakdown": {
+            "tariff": 65,
+            "compliance": 58,
+            "logistics": 46
+          }
+        },
+        {
+          "date": "2026-03-10",
+          "totalRisk": 63,
+          "breakdown": {
+            "tariff": 67,
+            "compliance": 59,
+            "logistics": 38
+          }
+        }
+      ]
+    },
+    "cn": {
+      "name": "중국",
+      "data": [
+        {
+          "date": "2026-02-09",
+          "totalRisk": 76,
+          "breakdown": {
+            "tariff": 81,
+            "compliance": 63,
+            "logistics": 43
+          }
+        },
+        {
+          "date": "2026-02-10",
+          "totalRisk": 84,
+          "breakdown": {
+            "tariff": 88,
+            "compliance": 72,
+            "logistics": 54
+          }
+        },
+        {
+          "date": "2026-02-11",
+          "totalRisk": 85,
+          "breakdown": {
+            "tariff": 79,
+            "compliance": 80,
+            "logistics": 54
+          }
+        },
+        {
+          "date": "2026-02-12",
+          "totalRisk": 84,
+          "breakdown": {
+            "tariff": 89,
+            "compliance": 73,
+            "logistics": 60
+          }
+        },
+        {
+          "date": "2026-02-13",
+          "totalRisk": 83,
+          "breakdown": {
+            "tariff": 88,
+            "compliance": 67,
+            "logistics": 45
+          }
+        },
+        {
+          "date": "2026-02-14",
+          "totalRisk": 82,
+          "breakdown": {
+            "tariff": 83,
+            "compliance": 74,
+            "logistics": 49
+          }
+        },
+        {
+          "date": "2026-02-15",
+          "totalRisk": 77,
+          "breakdown": {
+            "tariff": 73,
+            "compliance": 71,
+            "logistics": 50
+          }
+        },
+        {
+          "date": "2026-02-16",
+          "totalRisk": 79,
+          "breakdown": {
+            "tariff": 74,
+            "compliance": 67,
+            "logistics": 45
+          }
+        },
+        {
+          "date": "2026-02-17",
+          "totalRisk": 80,
+          "breakdown": {
+            "tariff": 78,
+            "compliance": 64,
+            "logistics": 43
+          }
+        },
+        {
+          "date": "2026-02-18",
+          "totalRisk": 69,
+          "breakdown": {
+            "tariff": 71,
+            "compliance": 57,
+            "logistics": 48
+          }
+        },
+        {
+          "date": "2026-02-19",
+          "totalRisk": 65,
+          "breakdown": {
+            "tariff": 67,
+            "compliance": 55,
+            "logistics": 44
+          }
+        },
+        {
+          "date": "2026-02-20",
+          "totalRisk": 66,
+          "breakdown": {
+            "tariff": 61,
+            "compliance": 54,
+            "logistics": 38
+          }
+        },
+        {
+          "date": "2026-02-21",
+          "totalRisk": 73,
+          "breakdown": {
+            "tariff": 67,
+            "compliance": 71,
+            "logistics": 50
+          }
+        },
+        {
+          "date": "2026-02-22",
+          "totalRisk": 72,
+          "breakdown": {
+            "tariff": 74,
+            "compliance": 61,
+            "logistics": 44
+          }
+        },
+        {
+          "date": "2026-02-23",
+          "totalRisk": 65,
+          "breakdown": {
+            "tariff": 61,
+            "compliance": 57,
+            "logistics": 41
+          }
+        },
+        {
+          "date": "2026-02-24",
+          "totalRisk": 65,
+          "breakdown": {
+            "tariff": 58,
+            "compliance": 52,
+            "logistics": 36
+          }
+        },
+        {
+          "date": "2026-02-25",
+          "totalRisk": 68,
+          "breakdown": {
+            "tariff": 69,
+            "compliance": 53,
+            "logistics": 44
+          }
+        },
+        {
+          "date": "2026-02-26",
+          "totalRisk": 69,
+          "breakdown": {
+            "tariff": 66,
+            "compliance": 63,
+            "logistics": 43
+          }
+        },
+        {
+          "date": "2026-02-27",
+          "totalRisk": 73,
+          "breakdown": {
+            "tariff": 66,
+            "compliance": 57,
+            "logistics": 43
+          }
+        },
+        {
+          "date": "2026-02-28",
+          "totalRisk": 76,
+          "breakdown": {
+            "tariff": 77,
+            "compliance": 63,
+            "logistics": 42
+          }
+        },
+        {
+          "date": "2026-03-01",
+          "totalRisk": 77,
+          "breakdown": {
+            "tariff": 74,
+            "compliance": 71,
+            "logistics": 43
+          }
+        },
+        {
+          "date": "2026-03-02",
+          "totalRisk": 89,
+          "breakdown": {
+            "tariff": 84,
+            "compliance": 85,
+            "logistics": 50
+          }
+        },
+        {
+          "date": "2026-03-03",
+          "totalRisk": 91,
+          "breakdown": {
+            "tariff": 84,
+            "compliance": 73,
+            "logistics": 59
+          }
+        },
+        {
+          "date": "2026-03-04",
+          "totalRisk": 82,
+          "breakdown": {
+            "tariff": 78,
+            "compliance": 70,
+            "logistics": 52
+          }
+        },
+        {
+          "date": "2026-03-05",
+          "totalRisk": 88,
+          "breakdown": {
+            "tariff": 82,
+            "compliance": 79,
+            "logistics": 51
+          }
+        },
+        {
+          "date": "2026-03-06",
+          "totalRisk": 91,
+          "breakdown": {
+            "tariff": 95,
+            "compliance": 78,
+            "logistics": 60
+          }
+        },
+        {
+          "date": "2026-03-07",
+          "totalRisk": 85,
+          "breakdown": {
+            "tariff": 85,
+            "compliance": 78,
+            "logistics": 55
+          }
+        },
+        {
+          "date": "2026-03-08",
+          "totalRisk": 90,
+          "breakdown": {
+            "tariff": 95,
+            "compliance": 85,
+            "logistics": 61
+          }
+        },
+        {
+          "date": "2026-03-09",
+          "totalRisk": 81,
+          "breakdown": {
+            "tariff": 85,
+            "compliance": 64,
+            "logistics": 45
+          }
+        },
+        {
+          "date": "2026-03-10",
+          "totalRisk": 78,
+          "breakdown": {
+            "tariff": 80,
+            "compliance": 75,
+            "logistics": 50
+          }
+        }
+      ]
+    },
+    "jp": {
+      "name": "일본",
+      "data": [
+        {
+          "date": "2026-02-09",
+          "totalRisk": 44,
+          "breakdown": {
+            "tariff": 49,
+            "compliance": 41,
+            "logistics": 33
+          }
+        },
+        {
+          "date": "2026-02-10",
+          "totalRisk": 37,
+          "breakdown": {
+            "tariff": 33,
+            "compliance": 25,
+            "logistics": 25
+          }
+        },
+        {
+          "date": "2026-02-11",
+          "totalRisk": 38,
+          "breakdown": {
+            "tariff": 45,
+            "compliance": 34,
+            "logistics": 17
+          }
+        },
+        {
+          "date": "2026-02-12",
+          "totalRisk": 40,
+          "breakdown": {
+            "tariff": 38,
+            "compliance": 36,
+            "logistics": 24
+          }
+        },
+        {
+          "date": "2026-02-13",
+          "totalRisk": 39,
+          "breakdown": {
+            "tariff": 34,
+            "compliance": 39,
+            "logistics": 30
+          }
+        },
+        {
+          "date": "2026-02-14",
+          "totalRisk": 40,
+          "breakdown": {
+            "tariff": 46,
+            "compliance": 39,
+            "logistics": 20
+          }
+        },
+        {
+          "date": "2026-02-15",
+          "totalRisk": 37,
+          "breakdown": {
+            "tariff": 40,
+            "compliance": 26,
+            "logistics": 28
+          }
+        },
+        {
+          "date": "2026-02-16",
+          "totalRisk": 40,
+          "breakdown": {
+            "tariff": 36,
+            "compliance": 29,
+            "logistics": 26
+          }
+        },
+        {
+          "date": "2026-02-17",
+          "totalRisk": 43,
+          "breakdown": {
+            "tariff": 43,
+            "compliance": 34,
+            "logistics": 27
+          }
+        },
+        {
+          "date": "2026-02-18",
+          "totalRisk": 38,
+          "breakdown": {
+            "tariff": 37,
+            "compliance": 36,
+            "logistics": 20
+          }
+        },
+        {
+          "date": "2026-02-19",
+          "totalRisk": 29,
+          "breakdown": {
+            "tariff": 22,
+            "compliance": 33,
+            "logistics": 21
+          }
+        },
+        {
+          "date": "2026-02-20",
+          "totalRisk": 33,
+          "breakdown": {
+            "tariff": 35,
+            "compliance": 27,
+            "logistics": 14
+          }
+        },
+        {
+          "date": "2026-02-21",
+          "totalRisk": 26,
+          "breakdown": {
+            "tariff": 20,
+            "compliance": 20,
+            "logistics": 20
+          }
+        },
+        {
+          "date": "2026-02-22",
+          "totalRisk": 29,
+          "breakdown": {
+            "tariff": 24,
+            "compliance": 26,
+            "logistics": 24
+          }
+        },
+        {
+          "date": "2026-02-23",
+          "totalRisk": 36,
+          "breakdown": {
+            "tariff": 37,
+            "compliance": 27,
+            "logistics": 27
+          }
+        },
+        {
+          "date": "2026-02-24",
+          "totalRisk": 29,
+          "breakdown": {
+            "tariff": 35,
+            "compliance": 32,
+            "logistics": 16
+          }
+        },
+        {
+          "date": "2026-02-25",
+          "totalRisk": 29,
+          "breakdown": {
+            "tariff": 32,
+            "compliance": 24,
+            "logistics": 20
+          }
+        },
+        {
+          "date": "2026-02-26",
+          "totalRisk": 33,
+          "breakdown": {
+            "tariff": 37,
+            "compliance": 25,
+            "logistics": 18
+          }
+        },
+        {
+          "date": "2026-02-27",
+          "totalRisk": 38,
+          "breakdown": {
+            "tariff": 42,
+            "compliance": 35,
+            "logistics": 20
+          }
+        },
+        {
+          "date": "2026-02-28",
+          "totalRisk": 46,
+          "breakdown": {
+            "tariff": 45,
+            "compliance": 41,
+            "logistics": 34
+          }
+        },
+        {
+          "date": "2026-03-01",
+          "totalRisk": 50,
+          "breakdown": {
+            "tariff": 47,
+            "compliance": 44,
+            "logistics": 30
+          }
+        },
+        {
+          "date": "2026-03-02",
+          "totalRisk": 46,
+          "breakdown": {
+            "tariff": 47,
+            "compliance": 47,
+            "logistics": 36
+          }
+        },
+        {
+          "date": "2026-03-03",
+          "totalRisk": 53,
+          "breakdown": {
+            "tariff": 49,
+            "compliance": 53,
+            "logistics": 27
+          }
+        },
+        {
+          "date": "2026-03-04",
+          "totalRisk": 44,
+          "breakdown": {
+            "tariff": 40,
+            "compliance": 34,
+            "logistics": 29
+          }
+        },
+        {
+          "date": "2026-03-05",
+          "totalRisk": 54,
+          "breakdown": {
+            "tariff": 57,
+            "compliance": 53,
+            "logistics": 35
+          }
+        },
+        {
+          "date": "2026-03-06",
+          "totalRisk": 54,
+          "breakdown": {
+            "tariff": 58,
+            "compliance": 48,
+            "logistics": 38
+          }
+        },
+        {
+          "date": "2026-03-07",
+          "totalRisk": 45,
+          "breakdown": {
+            "tariff": 47,
+            "compliance": 32,
+            "logistics": 33
+          }
+        },
+        {
+          "date": "2026-03-08",
+          "totalRisk": 46,
+          "breakdown": {
+            "tariff": 51,
+            "compliance": 36,
+            "logistics": 23
+          }
+        },
+        {
+          "date": "2026-03-09",
+          "totalRisk": 44,
+          "breakdown": {
+            "tariff": 49,
+            "compliance": 37,
+            "logistics": 26
+          }
+        },
+        {
+          "date": "2026-03-10",
+          "totalRisk": 43,
+          "breakdown": {
+            "tariff": 48,
+            "compliance": 35,
+            "logistics": 24
+          }
+        }
+      ]
+    },
+    "sea": {
+      "name": "동남아시아",
+      "data": [
+        {
+          "date": "2026-02-09",
+          "totalRisk": 53,
+          "breakdown": {
+            "tariff": 54,
+            "compliance": 45,
+            "logistics": 29
+          }
+        },
+        {
+          "date": "2026-02-10",
+          "totalRisk": 59,
+          "breakdown": {
+            "tariff": 59,
+            "compliance": 53,
+            "logistics": 32
+          }
+        },
+        {
+          "date": "2026-02-11",
+          "totalRisk": 51,
+          "breakdown": {
+            "tariff": 54,
+            "compliance": 39,
+            "logistics": 29
+          }
+        },
+        {
+          "date": "2026-02-12",
+          "totalRisk": 56,
+          "breakdown": {
+            "tariff": 56,
+            "compliance": 45,
+            "logistics": 40
+          }
+        },
+        {
+          "date": "2026-02-13",
+          "totalRisk": 57,
+          "breakdown": {
+            "tariff": 59,
+            "compliance": 47,
+            "logistics": 34
+          }
+        },
+        {
+          "date": "2026-02-14",
+          "totalRisk": 51,
+          "breakdown": {
+            "tariff": 47,
+            "compliance": 39,
+            "logistics": 32
+          }
+        },
+        {
+          "date": "2026-02-15",
+          "totalRisk": 57,
+          "breakdown": {
+            "tariff": 61,
+            "compliance": 47,
+            "logistics": 39
+          }
+        },
+        {
+          "date": "2026-02-16",
+          "totalRisk": 52,
+          "breakdown": {
+            "tariff": 54,
+            "compliance": 43,
+            "logistics": 26
+          }
+        },
+        {
+          "date": "2026-02-17",
+          "totalRisk": 53,
+          "breakdown": {
+            "tariff": 55,
+            "compliance": 51,
+            "logistics": 27
+          }
+        },
+        {
+          "date": "2026-02-18",
+          "totalRisk": 43,
+          "breakdown": {
+            "tariff": 44,
+            "compliance": 33,
+            "logistics": 33
+          }
+        },
+        {
+          "date": "2026-02-19",
+          "totalRisk": 50,
+          "breakdown": {
+            "tariff": 48,
+            "compliance": 49,
+            "logistics": 29
+          }
+        },
+        {
+          "date": "2026-02-20",
+          "totalRisk": 41,
+          "breakdown": {
+            "tariff": 47,
+            "compliance": 39,
+            "logistics": 20
+          }
+        },
+        {
+          "date": "2026-02-21",
+          "totalRisk": 41,
+          "breakdown": {
+            "tariff": 34,
+            "compliance": 34,
+            "logistics": 26
+          }
+        },
+        {
+          "date": "2026-02-22",
+          "totalRisk": 40,
+          "breakdown": {
+            "tariff": 43,
+            "compliance": 36,
+            "logistics": 24
+          }
+        },
+        {
+          "date": "2026-02-23",
+          "totalRisk": 45,
+          "breakdown": {
+            "tariff": 49,
+            "compliance": 44,
+            "logistics": 29
+          }
+        },
+        {
+          "date": "2026-02-24",
+          "totalRisk": 45,
+          "breakdown": {
+            "tariff": 47,
+            "compliance": 37,
+            "logistics": 34
+          }
+        },
+        {
+          "date": "2026-02-25",
+          "totalRisk": 52,
+          "breakdown": {
+            "tariff": 54,
+            "compliance": 40,
+            "logistics": 25
+          }
+        },
+        {
+          "date": "2026-02-26",
+          "totalRisk": 50,
+          "breakdown": {
+            "tariff": 44,
+            "compliance": 47,
+            "logistics": 33
+          }
+        },
+        {
+          "date": "2026-02-27",
+          "totalRisk": 47,
+          "breakdown": {
+            "tariff": 49,
+            "compliance": 40,
+            "logistics": 25
+          }
+        },
+        {
+          "date": "2026-02-28",
+          "totalRisk": 58,
+          "breakdown": {
+            "tariff": 56,
+            "compliance": 43,
+            "logistics": 33
+          }
+        },
+        {
+          "date": "2026-03-01",
+          "totalRisk": 52,
+          "breakdown": {
+            "tariff": 55,
+            "compliance": 42,
+            "logistics": 36
+          }
+        },
+        {
+          "date": "2026-03-02",
+          "totalRisk": 58,
+          "breakdown": {
+            "tariff": 61,
+            "compliance": 57,
+            "logistics": 32
+          }
+        },
+        {
+          "date": "2026-03-03",
+          "totalRisk": 59,
+          "breakdown": {
+            "tariff": 66,
+            "compliance": 46,
+            "logistics": 32
+          }
+        },
+        {
+          "date": "2026-03-04",
+          "totalRisk": 63,
+          "breakdown": {
+            "tariff": 69,
+            "compliance": 63,
+            "logistics": 37
+          }
+        },
+        {
+          "date": "2026-03-05",
+          "totalRisk": 64,
+          "breakdown": {
+            "tariff": 60,
+            "compliance": 61,
+            "logistics": 39
+          }
+        },
+        {
+          "date": "2026-03-06",
+          "totalRisk": 58,
+          "breakdown": {
+            "tariff": 58,
+            "compliance": 54,
+            "logistics": 39
+          }
+        },
+        {
+          "date": "2026-03-07",
+          "totalRisk": 67,
+          "breakdown": {
+            "tariff": 60,
+            "compliance": 65,
+            "logistics": 41
+          }
+        },
+        {
+          "date": "2026-03-08",
+          "totalRisk": 61,
+          "breakdown": {
+            "tariff": 55,
+            "compliance": 54,
+            "logistics": 43
+          }
+        },
+        {
+          "date": "2026-03-09",
+          "totalRisk": 63,
+          "breakdown": {
+            "tariff": 58,
+            "compliance": 58,
+            "logistics": 33
+          }
+        },
+        {
+          "date": "2026-03-10",
+          "totalRisk": 55,
+          "breakdown": {
+            "tariff": 59,
+            "compliance": 43,
+            "logistics": 29
+          }
+        }
+      ]
+    }
+  },
+  "generatedAt": "2026-03-10T15:09:22.018Z"
+}
