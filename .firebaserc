@@ -1,5 +1,7 @@
 {
-  "projects": {},
+  "projects": {
+    "default": "seraphic-lock-460314-f9"
+  },
   "targets": {},
   "etags": {}
 }
