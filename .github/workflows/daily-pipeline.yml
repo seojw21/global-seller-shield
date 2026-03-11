@@ -34,9 +34,8 @@ jobs:
           VITE_GEMINI_API_KEY: ${{ secrets.VITE_GEMINI_API_KEY }}
 
       - name: Deploy to Firebase Hosting
-        uses: FirebaseExtended/action-hosting-deploy@v0
-        with:
-          repoToken: ${{ secrets.GITHUB_TOKEN }}
-          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
-          projectId: seraphic-lock-460314-f9
-          channelId: live
+        # 사용자가 방금 만든 FIREBASE_TOKEN을 사용하여 배포하도록 방식을 변경합니다.
+        # 이 방식이 초보자분들에게는 더 직관적이고 설정이 쉽습니다.
+        run: npx firebase-tools deploy --only hosting --project seraphic-lock-460314-f9
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
