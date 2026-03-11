@@ -2,10 +2,8 @@ name: Daily Content Pipeline & Deploy
 
 on:
   schedule:
-    - cron: '0 0 * * *' # 매일 자정 실행
-  workflow_dispatch: # 수동 실행 버튼 활성화
-
-# Forced update to ensure sync: 2026-03-11T17:00:00
+    - cron: '0 0 * * *'
+  workflow_dispatch:
 
 jobs:
   build_and_deploy:
@@ -24,8 +22,6 @@ jobs:
         run: npm ci
 
       - name: Generate automated content & insights
-        # 에러 유발 원인이었던 echo 명령어를 완전히 제거하고 
-        # 스크립트 실행 시 환경 변수를 직접 주입합니다.
         run: npm run generate
         env:
           VITE_GEMINI_API_KEY: ${{ secrets.VITE_GEMINI_API_KEY }}
@@ -38,7 +34,7 @@ jobs:
       - name: Deploy to Firebase Hosting
         uses: FirebaseExtended/action-hosting-deploy@v0
         with:
-          repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          firebaseToken: '${{ secrets.FIREBASE_TOKEN }}'
-          projectId: 'seraphic-lock-460314-f9'
+          repoToken: ${{ secrets.GITHUB_TOKEN }}
+          firebaseToken: ${{ secrets.FIREBASE_TOKEN }}
+          projectId: seraphic-lock-460314-f9
           channelId: live
