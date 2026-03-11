@@ -28,8 +28,9 @@ jobs:
         run: npm ci
 
       - name: Create .env file
-        run: |
-          echo "VITE_GEMINI_API_KEY=${{ secrets.VITE_GEMINI_API_KEY }}" >> .env
+        run: echo "VITE_GEMINI_API_KEY=$VITE_GEMINI_API_KEY" >> .env
+        env:
+          VITE_GEMINI_API_KEY: ${{ secrets.VITE_GEMINI_API_KEY }}
       
       - name: Generate automated content & insights
         run: npm run generate
