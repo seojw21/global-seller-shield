@@ -51,7 +51,7 @@ jobs:
       - name: Deploy to Firebase Hosting
         uses: FirebaseExtended/action-hosting-deploy@v0
         with:
-          repoToken: ${{ secrets.GITHUB_TOKEN }}
-          firebaseToken: ${{ secrets.FIREBASE_TOKEN }}
+          repoToken: '${{ secrets.GITHUB_TOKEN }}'
+          firebaseToken: '${{ secrets.FIREBASE_TOKEN }}'
+          projectId: 'seraphic-lock-460314-f9'
           channelId: live
-          projectId: seraphic-lock-460314-f9
